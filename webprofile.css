@@ -75,29 +75,30 @@ nav ul li a:hover {
     color: rgb(150, 77, 219)
 }
 
-.secondSection{
+.secondSection {
     max-width: 80vw;
-    margin:auto;
+    margin: auto;
     height: 80vh;
 }
 
-h1{
+h1 {
     max-width: 80vw;
     margin: auto;
 }
-main hr{
-    border:0px;
+
+main hr {
+    border: 0px;
     background-color: rgb(150, 77, 219);
     height: 1px;
     margin: 40px 40px
 }
 
-.gray{
+.gray {
     color: gray;
     margin: auto
 }
 
-.secondSection .box{
+.secondSection .box {
     background: white;
     width: 170vh;
     height: 2px;
@@ -105,21 +106,21 @@ main hr{
     display: flex;
 }
 
-.secondSection .vertical{
+.secondSection .vertical {
     height: 93px;
     width: 1px;
     background-color: white;
     margin: 0 100px
 }
-.imageTop{
+
+.imageTop {
     width: 100px;
     position: relative;
     top: -50px;
     left: -30px
-
-
 }
-.verticalTitle{
+
+.verticalTitle {
     position: relative;
     /* text-decoration:; */
     top: 50px;
@@ -127,7 +128,8 @@ main hr{
 
 
 }
-.verticalDesc{
+
+.verticalDesc {
     font-size: 10px;
     position: relative;
     top: 55px;
@@ -135,24 +137,57 @@ main hr{
     color: gray
 }
 
- .footer{   
+.footer {
     background-color: rgb(32, 32, 32);
     display: flex;
     padding: 50px;
 
-     
-    
+
+
 }
 
-.footer div{
+.footer div {
     justify-content: space-around;
     font-size: 10px;
     margin: 0 70px;
-    
-    
+
 }
 
-.footer div ul{
+.footer div ul {
     list-style: none;
     font-size: 15px
+}
+
+.button1{
+    padding:15px;
+    border: 2px solid rgb(150, 77, 219);
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out ;
+}
+
+.button1:hover{
+    background-color: rgb(65, 56, 143);
+    /* color: black */
+    cursor: pointer;
+}
+
+.button2{
+    padding:15px;
+    /* border: 2px solid rgb(150, 77, 219); */
+    color:  rgb(150, 77, 219);
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out ;
+}
+
+.button2:hover{
+    padding:15px;
+    border: 2px solid rgb(150, 77, 219);
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    cursor: pointer;
+  
 }
